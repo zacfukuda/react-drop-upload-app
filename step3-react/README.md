@@ -1,12 +1,17 @@
 # Step 3: React, Webpack, Express - Drop & Upload Files Tutorial
 
-Codes and files for the last step of the three step-by-step tutorials on Drop & Upload Files app.
+The last step of the three step-by-step tutorials on Drop & Upload Files app.
 
 ## USE
 
+Clone the repository:
+```bash
+$ git clone https://github.com/zacfukuda/react-drop-upload-app.git
+```
+
 Change your working directory to:
 ```bash
-$ cd step3-react
+$ cd react-drop-upload-app/step3-react
 ```
 
 Create directories in which the images and the bundled js files will be saved:
@@ -42,7 +47,7 @@ Visit [http://localhost:3000](http://localhost:3000) and drop your images to “
 ### Keep watching file changes
 The changes on js fils under `src` can be watched by webpack, and the browser will be automatically reloaded every time you make a change by [Browsersync](https://www.browsersync.io/).
 
-Watch files and run server:
+Watch files and run a server:
 ```bash
 $ yarn start-dev
 ```
