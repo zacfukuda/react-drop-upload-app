@@ -1,0 +1,222 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	background: #222329;
+	background: -webkit-linear-gradient(#222329, #151721);
+	background: -o-linear-gradient(#222329, #151721);
+	background: -moz-linear-gradient(#222329, #151721);
+	background: linear-gradient(#222329, #151721);
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+	background-color: rgba(12, 252, 255, .35);
+	color: rgba(231, 245, 244, .75);
+	font-size: 28px;
+	font-weight: 200;
+	letter-spacing: 1.2px;
+	line-height: 1;
+	padding: 4px 8px;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 64px 16px;
+	width: 640px;
+}
+
+/* Drop Zone */
+.dropZoneBox {
+	background-color: rgba(87, 184, 208, .4);
+	border: 1px solid rgba(138, 255, 247, .5);
+	margin-top: 16px;
+	padding: 16px;
+}
+
+#dropZone {
+	/* border: 2px dashed #bbb; */
+	background-color: rgba(87, 184, 208, .1);
+	color: rgba(255, 255, 255, .5);
+	font: 200 18px/18px 'Helvetica Neue';
+	letter-spacing: 1.5px;
+	padding: 138px 16px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#dropZone:hover {
+	background-color: rgba(255, 150, 0, .2);
+	color: rgba(255, 255, 255, .6);
+}
+#dropZone.dragover {
+	background-color: rgba(255, 150, 0, .6);
+	color: rgba(255, 255, 255, .8);
+}
+
+/* Progress Area */
+h6 {
+	color: rgba(255, 255, 255, .8);
+	font: 300 11px/11px 'Helvetica Neue';
+	letter-spacing: 1px;
+	margin-top: 12px;
+	position: relative;
+	text-transform: uppercase;
+}
+h6:after {
+	background-color: rgba(255, 255, 255, .4);
+	content: '';
+	display: block;
+	position: absolute;
+	height: 1px;
+	left: 100px;
+	right: 0;
+	top: 6px;
+}
+
+#progressTable {
+	margin-top: 2px;
+width: 100%;
+}
+#progressTable th {
+	text-align: left;
+	width: 82px;
+}
+#progressTable td {
+	padding: 2px 0;
+	position: relative;
+	text-align: left;
+}
+
+b {
+	color: rgba(255, 255, 255, .8);
+	font: 400 30px/30px 'Helvetica Neue';
+	letter-spacing: .5px;
+	position: relative;
+	left: -3px;
+	text-transform: uppercase;
+}
+
+.progressBar {
+	background-color: rgba(255, 255, 255, .1);
+	width: 100%;
+	height: 26px;
+}
+#progressBar {
+	background-color: rgba(87, 184, 208, .5);
+	content: '';
+	width: 0;
+	height: 26px;
+}
+
+button#abortButton {
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	cursor: pointer;
+	opacity: .4;
+	position: absolute;
+	top: 7px;
+	right: 4px;
+	z-index: 10;
+}
+button#abortButton:hover {
+	opacity: .8;
+}
+button#abortButton:focus {
+	outline: none;
+}
+button#abortButton > span {
+	width: 6px;
+	height: 6px;
+	background-color: #fff;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Output ( Uploaded files) */
+#output {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
+	margin: 0 -16px 0 0;
+}
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes displayPicture {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate(32px, 32px);
+		transform: translate(32px, 32px);
+	}
+	40% {
+		opacity: 1;
+		-webkit-transform: translate(32px, 32px);
+		transform: translate(32px, 32px);
+	}
+	60% {
+		opacity: 1;
+		-webkit-transform: translate(32px, 32px);
+		transform: translate(32px, 32px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate(32px, 32px);
+		transform: translate(0, 0);
+	}
+}
+
+.file {
+	background-color: rgba(87, 184, 208, .2);
+	border: 1px solid rgba(138, 255, 247, .2);
+	margin: 16px 16px 0 0;
+	padding: 8px;
+	width: calc(20% - 16px);
+}
+
+picture {
+	background-color: #4a6369;
+	display: block;
+	opacity: 0;
+	overflow: hidden;
+	padding-bottom: 100%;
+	position: relative;
+	width: 100%;
+	-webkit-transform: translate(32px, 32px);
+	transform: translate(32px, 32px);
+	-webkit-animation: displayPicture .8s ease-in;
+	animation: displayPicture .8s ease-in;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.thumb {
+	position: absolute;
+	min-width:100%;
+	min-height:100%;
+	left: 0;
+	top: 0;
+	background-position: center center;
+	background-size: cover;
+	display: block;
+	opacity: .5;
+}

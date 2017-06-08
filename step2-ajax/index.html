@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Drop &amp; Upload Files</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<h1>Drop &amp; Upload Files</h1>
+	<div class="dropZoneBox">
+		<div id="dropZone">Drop files here to upload</div>
+		<h6>Upload Status</h6>
+		<table id="progressTable">
+			<tr>
+				<th><b><span id="progress">000</span>%</b></th>
+				<td><div class="progressBar"><div id="progressBar"></div></div><button id="abortButton" onlick="abortUpload();"><span></span></button></td>
+			</tr>
+		</table>
+	</div><!-- .dropZoneBox -->
+	<output id="output"></output>
+</div><!-- .wrapper -->
+
+<script src="./dropUploadFile.js"></script>
+</body>
+</html>
