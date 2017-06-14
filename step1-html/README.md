@@ -13,7 +13,7 @@ Open the `index.html` in `step1-html` directory, and then drag & drop a image fi
 
 ## Original
 
-The code being used here is mostly based on [Reading files in JavaScript using the File APIs](https://www.html5rocks.com/en/tutorials/file/dndfiles/) from HTML5 Rocks. I put each of code into one file eliminating the unnecessary parts and add some modification for the next following two steps in order to minimize the editting when we make it be Ajax and React application.
+The code being used here is mostly based on [Reading files in JavaScript using the File APIs](https://www.html5rocks.com/en/tutorials/file/dndfiles/) from HTML5 Rocks. I put each of code into one file eliminating the unnecessary parts and add some modification for the next following two steps in order to minimize the editing when we make it be Ajax and React application.
 
 > Because the code here is based on HTML5 Rocks, the application only accepts image files. Even if you drop a PDF, or txt file, nothing will happen.
 

@@ -53,7 +53,7 @@
 			if (loaded >= 0 && loaded < 10) zeros = '00';
 			else if (loaded < 100) zeros = '0';
 
-			// Display progreess in 3-digit and increase the bar length.
+			// Display progress in 3-digit and increase the bar length.
 			progress.textContent = zeros + loaded.toString();
 			progressBar.style.width = loaded + '%';
 
@@ -91,7 +91,7 @@
 
 	/**
 	 * Main Event Handler to deal with
-	 * the whole drop & upload processes.
+	 * the whole drop & upload process.
 	 */
 	function handleFileSelect(e) {
 		e.stopPropagation();
@@ -115,7 +115,7 @@
 	} // END handleFileSelect
 
 	/**
-	 * functions assosiating drag envet.
+	 * functions associating "drag" event.
 	 */
 	function handleDragEnter (e) {
 		e.stopPropagation();
@@ -134,7 +134,7 @@
 	}
 
 	/**
-	 * Setup the evnet listeners.
+	 * Setup the event listeners.
 	 */
 	dropZone.addEventListener('dragenter', handleDragEnter, false)
 	dropZone.addEventListener('dragleave', handleDragLeave, false)

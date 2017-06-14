@@ -4,7 +4,7 @@ Codes for a tutorial on how to create a simple Drop & Upload Files application i
 
 ## Tutorial
 
-This repository is for the step-by-step tutorialson how to build a Drop & Uoload application. The purpose of this tutorial is to get you familiar with FileReader, XMLHttpRequest (Ajax), and most of all React.
+This repository is for the step-by-step tutorials on how to build a Drop & Upload application. The purpose of this tutorial is to get you familiar with FileReader, XMLHttpRequest (Ajax), and most of all React.
 
 The codes and the tutorials are intended for someone who want to learn the basic of those technologies. You will find these tutorials and codes boring if you are already an expert in Javascript and React. The jQuery is never used in the tutorials in order to meet the trend of the current Javascript application development.
 
