@@ -98,7 +98,7 @@
 			console.log(response.filename + ' uploaded');
 			appendThumbnail( files[response.index] );
 		} else {
-			// Uncomment if you want to display other than the status above.
+			// Uncomment if you want to display the states other than above.
 			// console.log('State: ' + this.readyState + ', ' + this.statusText); 
 		}
 	}

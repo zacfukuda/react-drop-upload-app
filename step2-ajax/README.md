@@ -1,10 +1,11 @@
-# Step 2: Ajax with Express - Drop & Upload Files Tutorial
+# Step 2: Ajax with Express.js - Drop & Upload File Tutorial
 
-The second step of the three step-by-step tutorials on Drop & Upload Files app.
+The second step of the three step-by-step tutorials on Drop & Upload File app.
+The official tutorial of this step is available at [here](https://www.mokuji.me/article/drop-upload-tutorial-2)
 
-In step 1, I introduce the code based on [HTML5 Rocks' post on FileReader](https://www.html5rocks.com/en/tutorials/file/dndfiles/). It is a great post explaining File API. But, since it is a simple HTML and Javascript code, the file data disappears into the browser's memory once you read it. That's not what we want.
+In [the Step 1](https://www.mokuji.me/article/drop-upload-tutorial-1), I introduce the code based on [HTML5 Rocks' post on FileReader](https://www.html5rocks.com/en/tutorials/file/dndfiles/). It is a great post explaining about the File API. But, since it is a simple HTML and Javascript code, the file data disappears into the browser's memory once you read it. That's not what we want.
 
-In this step, we create a super simple Express application to handle the ajax `POST` request that is sent by a client passing the data of images dropped into the browser. Then save the file on the server.
+In this step, we create a super simple Express application to handle the ajax `POST` request sent from a client, along with the data of images, then save the files on the server.
 
 ## USE
 

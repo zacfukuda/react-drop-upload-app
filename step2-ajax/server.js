@@ -1,4 +1,5 @@
 /**
+ * Reference:
  * https://www.npmjs.com/package/formidable
  * http://shiya.io/simple-file-upload-with-express-js-and-formidable-in-node-js/
  * https://expressjs.com/en/starter/basic-routing.html
@@ -10,12 +11,12 @@ var formidable = require('formidable');
 var app = express();
 app.use(express.static(__dirname));
 
-// GET
+// GET: display index.html
 app.get('/', function (req, res) {
 	res.sendFile(__dirname + '/index.html');
 });
 
-// POST
+// POST: handle form data parsed from client
 app.post('/upload', function(req, res) {
 	var form = new formidable.IncomingForm();
 	var index, filename;

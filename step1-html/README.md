@@ -1,6 +1,7 @@
-# Step 1: Pure Javascript - Drop & Upload Files Tutorial
+# Step 1: Pure Javascript - Drop & Upload File Tutorial
 
-The first step of the three step-by-step tutorials on Drop & Upload Files app.
+The first step of the three step-by-step tutorials on Drop & Upload File app.
+The official tutorial of this step is available at [here](https://www.mokuji.me/article/drop-upload-tutorial-1)
 
 ## Use
 

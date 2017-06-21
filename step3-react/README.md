@@ -1,6 +1,6 @@
 # Step 3: React, Webpack, Express - Drop & Upload Files Tutorial
 
-The last step of the three step-by-step tutorials on Drop & Upload Files app.
+The last step of the three step-by-step tutorials on Drop & Upload File app.
 
 ## USE
 

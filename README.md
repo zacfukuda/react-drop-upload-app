@@ -6,15 +6,15 @@ Codes for a tutorial on how to create a simple Drop & Upload Files application i
 
 This repository is for the step-by-step tutorials on how to build a Drop & Upload application. The purpose of this tutorial is to get you familiar with FileReader, XMLHttpRequest (Ajax), and most of all React.
 
-The codes and the tutorials are intended for someone who want to learn the basic of those technologies. You will find these tutorials and codes boring if you are already an expert in Javascript and React. The jQuery is never used in the tutorials in order to meet the trend of the current Javascript application development.
+The tutorials are intended for someone who want to learn the basic of those technologies. You will find these tutorials and codes boring if you are already an expert in Javascript and React. The jQuery is never used in the tutorials in order to meet the trend of the current Javascript application development.
 
-- Step 1: Pure Javascript
-- Step 2: Ajax with Express
+- Step 1: [Pure Javascript](https://www.mokuji.me/article/drop-upload-tutorial-1)
+- Step 2: [Ajax with Express.js](https://www.mokuji.me/article/drop-upload-tutorial-2)
 - Step 3: React, Webpack, Express
 
 In step 3, you will build a simple React application writing in ES2015 syntax along with the support of Babel and Webpack.
 
-> Now I'm preparing the concrete tutorials. I will update this repo as soon as I finish writing them. Until then please feel free to just download the files and give it a look.
+> The concrete tutorial of the Step 3 is now under writing. Please wait for a moment. Or a week.
 
 ## Prerequisite
 
@@ -22,7 +22,9 @@ In step 3, you will build a simple React application writing in ES2015 syntax al
 - Basic knowledge in Javascript including server-side
 - Basic knowledge in ES2015
 - [Yarn](https://yarnpkg.com/en/) (Unnecessary, replaceable with npm)
-- Nodemon (globally) installed (You can use your package to do the job )
+- (Globally Nodemon)
+
+Although the prior experience in Javascript for both front & backend is preferable, this tutorials can be a good place to start with JS.
 
 ## Reference
 
