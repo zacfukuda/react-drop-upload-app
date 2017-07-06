@@ -8,13 +8,13 @@ This repository is for the step-by-step tutorials on how to build a Drop & Uploa
 
 The tutorials are intended for someone who want to learn the basic of those technologies. You will find these tutorials and codes boring if you are already an expert in Javascript and React. The jQuery is never used in the tutorials in order to meet the trend of the current Javascript application development.
 
+The official tutorials are available on my personal website Mokuji. 
+
 - Step 1: [Pure Javascript](https://www.mokuji.me/article/drop-upload-tutorial-1)
 - Step 2: [Ajax with Express.js](https://www.mokuji.me/article/drop-upload-tutorial-2)
-- Step 3: React, Webpack, Express
+- Step 3: [React-ify with Babel & webpack](https://www.mokuji.me/article/drop-upload-tutorial-3)
 
 In step 3, you will build a simple React application writing in ES2015 syntax along with the support of Babel and Webpack.
-
-> The concrete tutorial of the Step 3 is now under writing. Please wait for a moment. Or a week.
 
 ## Prerequisite
 

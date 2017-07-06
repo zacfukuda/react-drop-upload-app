@@ -1,10 +1,6 @@
 import React from 'react';
 
 export default class Thumbnail extends React.Component {
-	
-	/*constructor(props) {
-		super(props);
-	}*/
 
 	render() {
 		let divStyle = {
@@ -19,4 +15,4 @@ export default class Thumbnail extends React.Component {
 			</div>
 		);
 	}
-} 
+}

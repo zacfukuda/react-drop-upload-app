@@ -3,10 +3,6 @@ import Thumbnail from './Thumbnail';
 
 export default class Output extends React.Component {
 
-	/* constructor(props) {
-		super(props);
-	} */
-
 	render() {
 		let thumbnailNodes = this.props.files.map(file => {
 			return(

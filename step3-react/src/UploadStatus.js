@@ -11,7 +11,6 @@ export default class UploadStatus extends React.Component {
 
 		let progress = zeros + loaded.toString();
 		let progressBar = {width: loaded.toString() + '%'};
-		//let progressBar = {width: '100%'};
 
 		return(
 			<table id="progressTable">

@@ -1,6 +1,7 @@
 # Step 3: React, Webpack, Express - Drop & Upload Files Tutorial
 
 The last step of the three step-by-step tutorials on Drop & Upload File app.
+The official tutorial of this step is available at [here](https://www.mokuji.me/article/drop-upload-tutorial-3)
 
 ## USE
 
@@ -44,7 +45,7 @@ $ yarn start
 
 Visit [http://localhost:3000](http://localhost:3000) and drop your images to “Drop files here to upload” zone. Your image will be uploaded to the `uploads` folder and you can see on the browser console the log message saying “[filename] uploaded”.
 
-### Keep watching file changes
+### Keep watching file changes with Browsersync
 The changes on js fils under `src` can be watched by webpack, and the browser will be automatically reloaded every time you make a change by [Browsersync](https://www.browsersync.io/).
 
 Watch files and run a server:
