@@ -1,4 +1,4 @@
-# Drop & Upload Files
+# Tutorial: React Drop & Upload App
 
 Codes for a tutorial on how to create a simple Drop & Upload Files application in Javascript using FileReader and XMLHttpRequest with React.
 
